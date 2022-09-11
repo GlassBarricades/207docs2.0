@@ -5,6 +5,7 @@ import { Bonus } from "./components/pages/Bonus";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Container } from "@mantine/core";
+import { Markups } from "./components/pages/Markups";
 
 function App() {
   const links = [
@@ -20,6 +21,10 @@ function App() {
       link: "/bonus",
       label: "Бонусы",
     },
+    {
+      link: "/markups",
+      label: "Наценки",
+    },
   ];
 
   return (
@@ -31,6 +36,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/beznal" element={<Beznal />} />
             <Route path="/bonus" element={<Bonus />} />
+            <Route path="/markups" element={<Markups />} />
           </Routes>
         </Container>
       </div>

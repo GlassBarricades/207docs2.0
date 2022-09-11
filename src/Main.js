@@ -33,6 +33,13 @@ function Main() {
                 },
               },
             },
+            Table: {
+              styles: {
+                root: {
+                  fontSize: "1.2em"
+                }
+              }
+            }
           },
         }}
         withGlobalStyles
