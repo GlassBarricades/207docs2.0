@@ -33,10 +33,10 @@ function Main() {
                 },
               },
             },
-            Table: {
+            List: {
               styles: {
                 root: {
-                  fontSize: "1.2em"
+                  fontSize: "16px"
                 }
               }
             }

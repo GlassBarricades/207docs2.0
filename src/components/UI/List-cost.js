@@ -1,10 +1,10 @@
 import { List, Title } from "@mantine/core";
 
-export function ListCost({ data, title }) {
+export function ListCost({ data, title, type }) {
   return (
     <>
         <Title mt="md" order={4}>{title}</Title>
-        <List size="xl">
+        <List type={type} size="xl">
         {data.map((item) => {
             return <List.Item key={item}>{item}</List.Item>
         })}
